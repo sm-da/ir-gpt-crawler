@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://isa.ir/",
+  url: "https://isa.ir/index.php",
   match: "https://isa.ir/**",
   maxPagesToCrawl: 999999999,
   outputFileName: "isa.json",
   maxTokens: 2000000,
-  selector: "body"
+  selector: "body",
 };
