@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://isa.ir/",
+  match: "https://isa.ir/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "isa.json",
   maxTokens: 2000000,
   selector: "body"
 };
