@@ -6,5 +6,5 @@ export const defaultConfig: Config = {
   maxPagesToCrawl: 9999999999,
   outputFileName: "parliran-ir.json",
   maxTokens: 2000000,
-  selector: "body"
+  selector: "body",
 };
