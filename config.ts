@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "http://en.parliran.ir/",
+  match: "http://en.parliran.ir/**",
+  maxPagesToCrawl: 9999999999,
+  outputFileName: "parliran-ir.json",
   maxTokens: 2000000,
   selector: "body"
 };
