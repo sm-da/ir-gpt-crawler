@@ -1,8 +1,8 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://cloudguard.ir/",
-  match: "https://cloudguard.ir/**",
+  url: "http://185.231.114.146",
+  match: "http://185.231.114.146/**",
   maxPagesToCrawl: 999999999,
   outputFileName: "cloudguard-ir.json",
   maxTokens: 2000000,
