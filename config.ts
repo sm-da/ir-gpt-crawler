@@ -1,10 +1,10 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "http://irib.ir/",
+  match: "http://irib.ir/**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "irib.json",
   maxTokens: 2000000,
   selector: "body"
 };
