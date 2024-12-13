@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://irangov.ir/en",
+  match: "https://irangov.ir/en**",
+  maxPagesToCrawl: 9999999909,
+  outputFileName: "iran-gov.json",
   maxTokens: 2000000,
 };
